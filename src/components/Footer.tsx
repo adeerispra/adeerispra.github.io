@@ -6,7 +6,7 @@ export default function Footer() {
           © {new Date().getFullYear()} Ade Sembiring. All rights reserved.
         </p>
         <p className="text-sm text-[#666666]">
-          QA Engineer · Jakarta, Indonesia
+          Tangerang, Indonesia
         </p>
       </div>
     </footer>
