@@ -2,55 +2,72 @@ const services = [
   {
     title: "Manual Testing",
     description:
-      "Plan, execute, and document thorough manual tests across your product — covering functional, regression, and UAT scenarios, with clear bug reports and QA documentation delivered.",
+      "I can plan, execute, and document manual functional, regression, and UAT testing with clear bug reports and test documentation.",
     deliverables: [
-      "Test plan & test cases",
-      "Bug reports",
-      "Regression testing",
+      "Test cases and test execution",
+      "Functional and regression testing",
       "UAT support",
-      "QA report documentation",
+      "Clear bug reports",
+      "Test execution summary",
     ],
   },
   {
     title: "Web Automation Testing",
     description:
-      "Build a maintainable web automation framework using Playwright — covering UI and regression test suites, integrated with your CI/CD pipeline, with test reports delivered on completion.",
+      "I create automated UI tests for web applications using Playwright or Selenium — covering login, forms, dashboards, checkout flows, and regression scenarios.",
     deliverables: [
-      "Playwright test suite",
-      "CI/CD integration (optional)",
+      "Playwright or Selenium test scripts",
+      "Page Object Model structure",
+      "Regression test suite",
       "Test execution report",
-      "Framework documentation",
+      "Optional CI/CD integration",
     ],
   },
   {
     title: "Mobile Automation Testing",
     description:
-      "Build a mobile automation framework using Appium — covering Android and iOS, with UI and regression test suites, integrated with your CI/CD pipeline, with test reports delivered on completion.",
+      "I create mobile UI automation tests for Android and iOS applications using Appium, covering core user flows and regression scenarios.",
     deliverables: [
-      "Appium test suite (Android & iOS)",
-      "CI/CD integration (optional)",
+      "Appium test scripts",
+      "Android and iOS support",
+      "Basic framework structure",
       "Test execution report",
-      "Framework documentation",
+      "Setup documentation",
     ],
   },
   {
-    title: "API Testing",
+    title: "API Automation Testing",
     description:
-      "Design and execute API test suites covering functional, regression, and edge-case scenarios — using Postman, RestAssured, or Playwright depending on your stack, with full test reports and documentation delivered.",
+      "I create API automation tests for REST APIs using Postman/Newman, RestAssured, or Playwright API — including authentication, positive cases, negative cases, and response validation.",
     deliverables: [
-      "API test suite",
-      "Test execution report",
-      "Documentation",
+      "API test scripts",
+      "Authentication/token handling",
+      "Positive and negative scenarios",
+      "Response validation",
+      "Test report and documentation",
     ],
   },
   {
     title: "Performance Testing",
     description:
-      "Identify system bottlenecks through load and stress testing — using Locust or k6 depending on your stack, with detailed performance reports and recommendations delivered.",
+      "I create basic load and performance testing scripts using k6 or Locust to help teams understand how their application behaves under traffic.",
     deliverables: [
-      "Load & stress test scenarios",
-      "Performance test report",
-      "Bottleneck analysis & recommendations",
+      "Load test scripts",
+      "Traffic simulation scenarios",
+      "Basic performance summary",
+      "Response time observations",
+      "k6 or Locust setup",
+    ],
+  },
+  {
+    title: "CI/CD Test Integration",
+    description:
+      "I help integrate automated tests into GitHub Actions, Jenkins, or existing CI/CD pipelines so tests can run automatically before release.",
+    deliverables: [
+      "GitHub Actions or Jenkins setup",
+      "Automated test execution",
+      "Test report artifacts",
+      "Basic pipeline documentation",
     ],
   },
 ];
@@ -59,8 +76,13 @@ export default function Services() {
   return (
     <section id="services" className="py-24 border-t border-[#e8e4dc] bg-[#ffffff]">
       <div className="max-w-5xl mx-auto px-6">
-        <h2 className="text-2xl font-bold text-[#1e3a5f] mb-2">Services</h2>
-        <p className="text-[#666666] mb-12">What I can do for you.</p>
+        <h2 className="text-2xl font-bold text-[#1e3a5f] mb-2">
+          Test automation services I can help with
+        </h2>
+        <p className="text-[#666666] mb-12">
+          Practical QA support for teams that need better coverage, faster
+          regression checks, and clearer release confidence.
+        </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((s) => (
             <div

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ade Sembiring — QA Engineer",
+  title: "Ade Sembiring — QA Automation Engineer",
   description:
-    "Freelance QA Engineer specializing in manual testing, automation frameworks, and AI-assisted workflows. Available for retainer and project-based engagements.",
+    "QA Automation Engineer for web, API, mobile, and performance testing. Available for freelance and remote opportunities with automation, regression, and CI/CD support.",
   icons: {
     icon: [
       {

@@ -1,9 +1,7 @@
 const stats = [
   { value: "5+", label: "Years in QA" },
-  { value: "3", label: "Notable Companies" },
+  { value: "4", label: "Testing Areas" },
 ];
-
-const companies = ["Tokopedia", "ByteDance", "Liven"];
 
 export default function About() {
   return (
@@ -13,18 +11,18 @@ export default function About() {
           <div>
             <h2 className="text-2xl font-bold text-[#1e3a5f] mb-6">About</h2>
             <p className="text-[#1a1a1a] leading-relaxed mb-4">
-              I'm a QA Engineer with 5+ years of experience at Tokopedia, ByteDance, and Liven — working across manual testing, automation, and API/performance testing for high-traffic products.
+              I&apos;m a QA Automation Engineer with 5+ years of experience in manual testing, web automation, mobile automation, API testing, and performance testing for e-commerce and SaaS products.
             </p>
             <p className="text-[#1a1a1a] leading-relaxed mb-4">
-              I've built automation frameworks from scratch, designed end-to-end test strategies, and worked closely with cross-functional teams across Indonesia and globally. My background in backend engineering helps me understand systems at a deeper level — which makes me a more effective tester.
+              I build maintainable automated tests, regression suites, and CI/CD testing workflows to help teams catch issues earlier and release with more confidence.
             </p>
             <p className="text-[#1a1a1a] leading-relaxed">
-              These days I'm also actively exploring AI-assisted QA workflows, building agents that automate repetitive parts of the testing cycle so teams can focus on what matters.
+              My work covers web, mobile, API, regression, performance, and release validation testing across fast-moving product teams.
             </p>
           </div>
 
           <div>
-            <div className="grid grid-cols-3 gap-4 mb-8">
+            <div className="grid grid-cols-2 gap-4 mb-8">
               {stats.map((s) => (
                 <div key={s.label} className="text-center p-4 border border-[#1e3a5f] rounded-lg">
                   <div className="text-3xl font-bold text-[#1e3a5f] mb-1">{s.value}</div>
@@ -33,20 +31,15 @@ export default function About() {
               ))}
             </div>
 
-            <div>
-              <p className="text-sm font-medium text-[#666666] uppercase tracking-widest mb-4">
-                Previously at
+            <div className="border border-[#e8e4dc] rounded-lg p-6 bg-[#ffffff]">
+              <p className="text-sm font-medium text-[#666666] uppercase tracking-widest mb-3">
+                Core focus
               </p>
-              <div className="flex flex-wrap gap-3">
-                {companies.map((c) => (
-                  <span
-                    key={c}
-                    className="px-4 py-2 border border-[#1e3a5f] text-[#1e3a5f] text-sm font-medium rounded"
-                  >
-                    {c}
-                  </span>
-                ))}
-              </div>
+              <ul className="space-y-2 text-sm text-[#1a1a1a]">
+                <li>Web, API, mobile, and performance testing</li>
+                <li>Regression suite design and automation maintenance</li>
+                <li>CI/CD integration and release confidence</li>
+              </ul>
             </div>
           </div>
         </div>

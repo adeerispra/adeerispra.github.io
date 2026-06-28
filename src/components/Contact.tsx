@@ -65,7 +65,9 @@ export default function Contact() {
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-2xl font-bold text-[#1e3a5f] mb-2">Get in Touch</h2>
         <p className="text-[#666666] mb-12 max-w-lg">
-          Have a project in mind or want to explore a retainer? Reach out through any of these channels and I'll get back to you within 24 hours.
+          Need help with web, API, mobile, or performance test automation?
+          Send me your testing need, user flow, or existing test problem — I can
+          help create automated tests, reports, and setup documentation.
         </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {contacts.map((c) => (

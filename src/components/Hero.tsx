@@ -11,14 +11,18 @@ export default function Hero() {
         <p className="text-xl sm:text-2xl text-[#1a1a1a] font-normal mb-4 max-w-2xl">
           I make sure your product works — before your users find out it doesn&apos;t.
         </p>
-        <p className="text-[#666666] text-base mb-10 max-w-xl">
-          QA Engineer. 5+ years across Tokopedia, ByteDance, and Liven. Still learning, still building.
+        <p className="text-[#666666] text-base mb-10 max-w-2xl whitespace-pre-line">
+          QA Automation Engineer for Web, API, Mobile, and Performance Testing.
+          {"\n\n"}
+          I build automated tests, regression suites, and testing workflows using
+          Playwright, Selenium, Appium, Postman, RestAssured, k6, Locust, and
+          CI/CD tools.
         </p>
         <a
           href="#contact"
           className="inline-block px-8 py-3 bg-[#1e3a5f] text-white font-medium rounded hover:bg-[#162d4a] transition-colors"
         >
-          Work With Me
+          Hire Me for QA Automation
         </a>
       </div>
     </section>
